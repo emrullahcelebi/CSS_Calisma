@@ -1,0 +1,39 @@
+*{
+    font-size: 2rem;
+}
+
+
+body{
+    background-color: blanchedalmond;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    color: salmon;
+    text-align: center;
+}
+
+ul{
+    text-align: center;
+}
+
+.anasayfa{
+    background-color: aqua;
+}
+p.anasayfa{
+    background-color: violet;
+}
+.personeller{
+    background-color: brown;
+}
+
+.iletisim{
+    background-color: chocolate;
+}
+
+#anaorta{
+    background-color: yellow;
+}
