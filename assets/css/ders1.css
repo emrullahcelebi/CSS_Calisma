@@ -1,0 +1,11 @@
+.araBaslik{
+    color: green;
+    background-color: aqua !important;
+}
+
+h3.digerBaslik{
+    background-color: yellow;
+}
+p.digerBaslik{
+    background-color: tomato;
+}
