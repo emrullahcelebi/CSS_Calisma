@@ -1,0 +1,31 @@
+nav.menu{
+    font-family: "Poppins";
+    text-align: left;
+    background-color: aquamarine;
+    width: 300px;
+    
+}
+nav.menu ul{
+    list-style-type: "🎯";
+    padding: 1rem;
+    list-style-position: inside;/* liste isaretlerini iceri almak */
+}
+nav.menu a{
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+    padding: 0 0.5rem;
+
+
+}
+nav.menu a:visited{/* basildigi zaman */
+    color: black;
+}
+nav.menu a:hover{/* uzerine gelindiginde */
+background-color: chartreuse;
+color: rgb(240, 124, 124);
+}
+
+nav.menu li{
+    padding: 0.3rem;
+}
