@@ -1,0 +1,29 @@
+nav.menu{
+    background-color: aquamarine;
+    
+}
+nav.menu ul{
+    list-style-type: none;/* sira numarasi noktalar gider  */
+    padding: 0;/* kenardaki boslugu sildik */
+    margin: 0;
+    text-align: center;
+}
+
+nav.menu li{
+   display: inline-block;
+   
+}
+
+nav.menu a{
+    background-color: rgb(57, 209, 120); 
+    text-decoration: none;
+    color: rgb(6, 39, 102);
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    display:  inline-block;
+}
+
+nav.menu a:hover{
+    background-color:rgb(6, 39, 102);
+    color: rgb(57, 209, 120); 
+}

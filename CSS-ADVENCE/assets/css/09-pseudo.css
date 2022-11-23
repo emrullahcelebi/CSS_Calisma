@@ -1,0 +1,30 @@
+input[type="text"] {
+    background-color: rgb(248, 226, 226);
+    border: none;
+    padding: 0.5rem 1rem;
+}
+
+
+
+input[type="text"]:focus{
+background-color: blueviolet;
+color: rgb(255, 255, 255);
+}
+input[type="checkbox"]:checked{
+outline: 3px solid red;
+}
+.liste li:first-child{/* liste class indaki ilk li ler */
+    font-weight: bold;
+}
+
+.price-list tr:nth-child(odd){
+    background-color: aquamarine;
+
+}
+.price-list tr:nth-child(even) td:last-child{
+    background-color: blue;
+}
+
+.price-list tr:nth-child(even) td:first-child{
+    background-color: rgb(188, 245, 30);
+}
