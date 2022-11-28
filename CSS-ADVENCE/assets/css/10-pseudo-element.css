@@ -1,0 +1,35 @@
+.about::first-letter{
+    font-size: 2rem;
+}
+
+.about::first-line{
+    color: red;
+}
+
+.about::selection{
+    background-color: turquoise;
+}
+
+.liste li{
+    color: red;
+}
+
+.liste li::marker{
+    color: blue;
+    font-size: 3rem;
+}
+
+.about span{
+    color: blue;
+
+}
+
+.about span::before{
+    content: "▶";
+    color: blueviolet;
+
+}
+.about span::after{
+    content: "◀";
+    color: blueviolet;
+}

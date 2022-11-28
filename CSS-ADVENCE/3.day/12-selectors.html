@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .menu li{
+color: red;
+        }
+
+        .menu > ul > li{
+color: rgb(235, 16, 255);
+        }
+
+        .menu + article{
+            color: greenyellow;
+        }
+
+        .menu ~article{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <!--     nav.menu>ul>li*6>a -->
+    <nav class="menu">
+        <ul>
+            <li>Ocak</li>
+            <li>Subat</li>
+            <li>Mart</li>
+            <li>Nisan
+            <ul>
+                <li>Pazartesi</li>
+                <li>Sali</li>
+                <li>Carsamba</li>
+            </ul>
+            </li>
+
+
+            <li>Mayis</li>
+            <li>Haziran</li>
+        </ul>
+    </nav>
+
+    <article>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi nam qui repudiandae! Ullam consectetur commodi iste libero repudiandae excepturi obcaecati magni ab minima, cupiditate sint expedita deleniti! Aspernatur, quam nulla?</article>
+    <article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia harum obcaecati nostrum quam laudantium explicabo ex quod quibusdam quasi ducimus cupiditate necessitatibus eos, iste vero aliquam! Molestiae ea natus totam!</article>
+
+<ul>
+    <li>Lorem, ipsum dolor.</li>
+    <li>Recusandae, laborum fuga.</li>
+    <li>Eos, illum unde?</li>
+</ul>
+
+
+</body>
+</html>

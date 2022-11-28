@@ -1,0 +1,71 @@
+.header{
+    background-color: blueviolet;
+    color: white;
+    font-size: 2rem;
+    padding: 2rem;
+    border-radius: 10px;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+/* .ana{
+    width: 100%;
+    padding: 0;
+   
+} */
+ /* .main,.sidebar{
+    
+    
+} */
+.genel{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: 61%;
+    height: 40rem;
+    margin-top: 1rem;
+    margin-right: 3%;
+    background-color: aqua;
+    display: inline-block;
+    border-radius: 10px;
+}
+.main div{
+    display: inline-block;
+    background-color:chartreuse ;
+    width: 3rem;
+    height: 3rem;
+    border: 1rem;
+    margin: .5rem;
+    padding: 3px; 
+    text-align: center; 
+    border-radius: 5px; 
+}
+.main div p{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+
+
+}
+
+.sidebar{
+    width: 35%;
+    height:40rem;
+    background-color: brown;
+    display: inline-block;
+    border-radius: 10px;
+   
+
+}
+footer{
+    background-color: violet;
+    border-radius: 10px;
+    height: 3rem;
+    margin-top: 1rem;
+    padding: 2rem;
+
+}
