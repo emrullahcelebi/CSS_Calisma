@@ -1,0 +1,86 @@
+:root{
+    --color1: orange;
+    --color2: rgb(197, 197, 197);
+    --color3:rgb(53, 52, 52);
+    --color4: blueviolet;
+    --color5: rgb(148, 148, 148);
+}
+body{
+   background-color: var(--color1); 
+   margin: 0;
+   padding: 0;
+ 
+   
+}
+.container{
+    display: flex;
+    flex-wrap:wrap;
+    margin: 1%; 
+  
+}
+
+.menu{
+    background-color: var(--color2);
+    min-height: 700px;
+    min-width: 40%;
+ }
+
+.return a{
+   text-decoration: none;
+    color: var(--color3);
+}
+.return{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 10rem;
+
+}
+.sing{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.user{
+   
+    text-align: center;
+    margin-bottom: 10rem;
+    
+    
+}
+.user input{
+    font-size: 10px;
+    width: 13rem;
+    border: none;
+    border-bottom:2px solid var(--color5);
+    background-color: var(--color2);
+    
+}
+
+.letsgo{
+    text-align: center;
+    background-color: var(--color2);
+}
+.letsgo button{
+    padding:1rem 3.5rem;
+    border-radius: 5px;
+    color: white;
+    background-color: var(--color4);
+    box-shadow: 3px 3px 3px 3px #888888;
+    border: none;
+}
+.img{
+    background-image:url(../img/indir.jpg);
+    background-size: cover;
+    justify-content: center center;
+    align-items: center;
+    min-height: 700px;
+    min-width: 60%;
+
+}
+
+
+.img div{
+text-align: center;
+margin-top: 50%;
+ 
+}
